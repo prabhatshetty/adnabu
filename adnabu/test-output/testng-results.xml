@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-01T10:49:57 IST" name="Default suite" finished-at="2024-02-01T10:49:57 IST" duration-ms="115">
+  <suite started-at="2024-02-01T15:22:02 IST" name="Default suite" finished-at="2024-02-01T15:22:02 IST" duration-ms="54">
     <groups>
     </groups>
-    <test started-at="2024-02-01T10:49:57 IST" name="Default test" finished-at="2024-02-01T10:49:57 IST" duration-ms="115">
+    <test started-at="2024-02-01T15:22:02 IST" name="Default test" finished-at="2024-02-01T15:22:02 IST" duration-ms="54">
       <class name="adnabu.testcase.TC_003">
-        <test-method signature="a()[pri:0, instance:adnabu.testcase.TC_003@595b007d]" started-at="2024-02-01T10:49:57 IST" name="a" finished-at="2024-02-01T10:49:57 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-        <test-method signature="c()[pri:0, instance:adnabu.testcase.TC_003@595b007d]" started-at="2024-02-01T10:49:57 IST" name="c" finished-at="2024-02-01T10:49:57 IST" duration-ms="3" status="PASS">
+        <test-method signature="c()[pri:0, instance:adnabu.testcase.TC_003@2d7275fc]" started-at="2024-02-01T15:22:02 IST" name="c" finished-at="2024-02-01T15:22:02 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- c -->
-        <test-method signature="z()[pri:0, instance:adnabu.testcase.TC_003@595b007d]" started-at="2024-02-01T10:49:57 IST" name="z" finished-at="2024-02-01T10:49:57 IST" duration-ms="2" status="PASS">
+        <test-method signature="z()[pri:0, instance:adnabu.testcase.TC_003@2d7275fc]" started-at="2024-02-01T15:22:02 IST" name="z" finished-at="2024-02-01T15:22:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- z -->
-        <test-method signature="b()[pri:1, instance:adnabu.testcase.TC_003@595b007d]" started-at="2024-02-01T10:49:57 IST" name="b" finished-at="2024-02-01T10:49:57 IST" duration-ms="2" status="PASS">
+        <test-method signature="a()[pri:0, instance:adnabu.testcase.TC_003@2d7275fc]" started-at="2024-02-01T15:22:02 IST" name="a" finished-at="2024-02-01T15:22:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method signature="b()[pri:0, instance:adnabu.testcase.TC_003@2d7275fc]" started-at="2024-02-01T15:22:02 IST" name="b" finished-at="2024-02-01T15:22:02 IST" depends-on-methods="adnabu.testcase.TC_003.z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- b -->
