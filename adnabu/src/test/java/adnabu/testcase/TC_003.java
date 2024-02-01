@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TC_003 {
 	
-	 @Test
+	 @Test	
 	  public void a() {
 		  System.out.println("Pass a");
 	  }
@@ -15,9 +15,10 @@ public class TC_003 {
 	  public void z() {
 		  System.out.println("Pass z ");
 	  }
-	 @Test(priority = 1)
+	 //(priority = 0)
+	 @Test(dependsOnMethods = "z")
 	  public void b() {
-		  System.out.println("Pass b priority=1");
+		  System.out.println("Pass b ");
 	  }
 	 @Test
 	  public void c() {
