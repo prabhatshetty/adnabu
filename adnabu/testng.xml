@@ -12,3 +12,16 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
+<suite name="Suite1">
+<listeners>
+        <listener class-name="adnabu.generic.pageobjectmodel.ListnerImp" />
+    </listeners>
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="adnabu.testcase.AddToCart"/>
+      <class name="adnabu.testcase.TC_001"/>
+      <class name="adnabu.testcase.TC_002"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
